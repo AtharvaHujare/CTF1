@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NOVA SYSTEMS — LEGACY ADMINISTRATION</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="legacy-body">
+  <div class="legacy-window">
+    <div class="legacy-titlebar">
+      <span>NOVA SYSTEMS — LEGACY ADMINISTRATION</span>
+      <div class="legacy-title-controls">
+        <div class="legacy-control-btn">_</div>
+        <div class="legacy-control-btn">&#9633;</div>
+        <div class="legacy-control-btn">&#10005;</div>
+      </div>
+    </div>
+
+    <div class="legacy-content">
+      <div class="legacy-fieldset">
+        <div class="legacy-header-text">Legacy Administrative Console</div>
+        <div class="legacy-notice">
+          Administrator verification required.<br>
+          Authorized personnel only. All access attempts are logged to the legacy system journal.
+        </div>
+
+        {% if error %}
+        <div class="legacy-error">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST" action="/legacy-console">
+          <div class="legacy-form-group">
+            <label class="legacy-label" for="employee_code">Employee Code:</label>
+            <input type="password" id="employee_code" name="employee_code" class="legacy-input" autocomplete="off" autofocus required>
+          </div>
+          <div class="legacy-actions">
+            <button type="submit" class="legacy-btn">Verify</button>
+            <button type="reset" class="legacy-btn">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="legacy-statusbar">
+      <span>Service: AdminConsole_v1.8</span>
+      <span>Status: Standby</span>
+    </div>
+  </div>
+</body>
+</html>

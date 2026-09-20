@@ -1,0 +1,6 @@
+Nova Systems Employee Resource Portal
+
+Welcome to the employee resource system.
+
+For internal documentation or account issues,
+please contact the administration team.

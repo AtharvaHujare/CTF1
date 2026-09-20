@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Systems — Employee Resource Portal</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="/" class="nav-brand">
+      <div class="brand-icon">N</div>
+      <span class="brand-name">NOVA SYSTEMS</span>
+      <span class="brand-tag">Internal Portal</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/reports?file=welcome.txt">Documents</a></li>
+    </ul>
+    <div class="user-badge">
+      <span class="user-dot"></span>
+      <span>Welcome, Guest</span>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="hero-banner">
+      <h1 class="hero-title">Employee Resource Portal</h1>
+      <p class="hero-desc">
+        Access standardized corporate documentation, company policies, and operational department guidelines.
+      </p>
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <a href="/reports?file=welcome.txt" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          View Documents
+        </a>
+        <span class="status-pill">
+          <span class="user-dot" style="background-color: var(--success);"></span>
+          System Status: Operational
+        </span>
+      </div>
+    </div>
+
+    <!-- Grid Content -->
+    <div class="grid-3">
+      <!-- Card 1: Documentation Library -->
+      <div class="card">
+        <h2 class="card-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+          </svg>
+          Resource Library
+        </h2>
+        <p class="card-text">
+          Browse published company guidelines, onboarding schedules, and department notices. Handled via the internal document service.
+        </p>
+        <a href="/reports?file=welcome.txt" class="btn-secondary" style="font-size: 0.85rem; padding: 0.4rem 0.8rem;">
+          Access Files &rarr;
+        </a>
+      </div>
+
+      <!-- Card 2: Portal Migration Notice -->
+      <div class="card">
+        <h2 class="card-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          Migration Notice
+        </h2>
+        <p class="card-text">
+          Nova Systems has completed Phase 2 of the portal modernization. Legacy administration endpoints and obsolete services were scheduled for decommission.
+        </p>
+        <span style="font-size: 0.8rem; color: var(--text-dim);">Release: v2.1 (Production)</span>
+      </div>
+
+      <!-- Card 3: Department Technical Contacts -->
+      <div class="card">
+        <h2 class="card-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          Technical Administration
+        </h2>
+        <p class="card-text">
+          System maintenance and legacy integration are overseen by the Engineering department. Contact Engineering lead Daniel Brooks for system access audits.
+        </p>
+        <span style="font-size: 0.8rem; color: var(--text-dim);">Department: Engineering</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subtle legacy service hint in source inspection -->
+  <!-- legacy document service v1.8 active - migration review by Engineering lead D. Brooks -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Nova Systems Inc. All rights reserved. Confidential Internal Portal.</p>
+  </footer>
+</body>
+</html>

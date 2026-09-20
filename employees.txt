@@ -1,0 +1,21 @@
+NOVA SYSTEMS — EMPLOYEE DIRECTORY
+
+Employee: Sarah Mitchell
+Department: Human Resources
+Employee ID: 0314
+Joined: 2023
+
+Employee: Daniel Brooks
+Department: Engineering
+Employee ID: 0471
+Joined: 2022
+
+Employee: Maya Patel
+Department: Finance
+Employee ID: 0588
+Joined: 2024
+
+Employee: Ethan Cole
+Department: Infrastructure
+Employee ID: 0621
+Joined: 2021

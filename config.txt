@@ -1,0 +1,14 @@
+Nova Systems Legacy Configuration
+
+Application: Nova Employee Portal
+Version: 2.1
+
+Legacy administration interface:
+ /legacy-console
+
+Authentication method:
+ employee-id + joining-year
+
+NOTE:
+This authentication method was scheduled for removal
+during the migration.
