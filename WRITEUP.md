@@ -4,7 +4,7 @@
 **Category:** Web  
 **Difficulty:** Moderate  
 **Estimated Time:** 20–45 minutes  
-**Flag:** `flag{you_found_what_was_never_removed}`  
+**Flag:** `OWASP{you_found_what_was_never_removed}`  
 
 ---
 
@@ -158,7 +158,7 @@ Security audit result:
 CRITICAL
 
 FLAG:
-flag{you_found_what_was_never_removed}
+OWASP{you_found_what_was_never_removed}
 ```
 
 ---
